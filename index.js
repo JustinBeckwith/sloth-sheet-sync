@@ -25,7 +25,8 @@ exports.sync = async function() {
         i.createdAt,
         i.title,
         i.url,
-        i.labels ? i.labels.join(', ') : ''
+        i.labels ? i.labels.join(', ') : '',
+        i.team,
       ];
     });
     values.unshift([
@@ -41,7 +42,8 @@ exports.sync = async function() {
       'Created At',
       'Title',
       'Url',
-      'Labels'
+      'Labels',
+      'Team'
     ]);
 
     const auth = await google.auth.getClient({

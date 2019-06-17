@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js",
+    "test": "GOOGLE_APPLICATION_CREDENTIALS=./keys.json node test.js",
     "deploy": "gcloud functions deploy sloth-sheet-sync --runtime nodejs10 --trigger-topic sloth-sheet-sync --project yoshi-team --entry-point sync"
   },
   "keywords": [],
   "author": "Justin Beckwith <justin.beckwith@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@justinbeckwith/sloth": "^4.2.1",
+    "@justinbeckwith/sloth": "^4.6.0",
     "googleapis": "^40.0.0"
   }
 }
