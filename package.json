@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "GOOGLE_APPLICATION_CREDENTIALS=./keys.json node test.js",
-    "deploy": "GOOGLE_APPLICATION_CREDENTIALS=./keys.json gcx deploy sloth-sheet-sync"
+    "deploy": "GOOGLE_APPLICATION_CREDENTIALS=./keys.json gcloud functions deploy sloth-sheet-sync"
   },
   "keywords": [],
   "author": "Justin Beckwith <justin.beckwith@gmail.com>",
@@ -14,8 +14,5 @@
   "dependencies": {
     "@justinbeckwith/sloth": "4.6.0",
     "googleapis": "40.0.0"
-  },
-  "devDependencies": {
-    "gcx": "^0.2.3"
   }
 }
