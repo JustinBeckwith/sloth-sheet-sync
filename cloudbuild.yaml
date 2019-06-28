@@ -1,0 +1,5 @@
+steps:
+- name: 'node:12'
+  args: ['npm', 'install']
+- name: 'node:12'
+  args: ['npm', 'run', 'deploy']
