@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "GOOGLE_APPLICATION_CREDENTIALS=./keys.json node test.js",
-    "deploy": "GOOGLE_APPLICATION_CREDENTIALS=./keys.json gcloud functions deploy sloth-sheet-sync"
+    "deploy": "gcloud functions deploy sloth-sheet-sync --runtime nodejs10 --trigger-topic sloth-sheet-sync --project yoshi-team --entry-point sync"
   },
   "keywords": [],
   "author": "Justin Beckwith <justin.beckwith@gmail.com>",
