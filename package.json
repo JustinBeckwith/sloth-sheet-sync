@@ -12,7 +12,7 @@
   "author": "Justin Beckwith <justin.beckwith@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@justinbeckwith/sloth": "4.10.0",
+    "@justinbeckwith/sloth": "4.11.0",
     "googleapis": "40.0.1"
   }
 }
