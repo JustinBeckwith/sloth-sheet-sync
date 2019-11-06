@@ -13,6 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "@justinbeckwith/sloth": "4.25.1",
-    "googleapis": "44.0.0"
+    "googleapis": "45.0.0"
   }
 }
