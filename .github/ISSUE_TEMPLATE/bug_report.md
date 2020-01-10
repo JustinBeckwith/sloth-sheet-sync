@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-lables: "api: sloth", "priority: p1"
+labels: "api: sloth", "priority: p1"
 ---
 
 Thanks for stopping by to let us know something could be better!
